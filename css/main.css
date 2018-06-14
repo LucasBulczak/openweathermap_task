@@ -1,0 +1,58 @@
+html {
+          height: 100%;
+          min-width: 1000px;
+          padding: 0;
+          margin: 0;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-image: url('..//img/clouds.png');
+
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+      
+      body {
+          background: none;
+          text-align: center;
+      }
+      
+      .container {
+          text-align: center;
+          display: inline-block;
+          margin-top: 200px;
+      }
+      
+      input {
+          margin: 20px 0;
+      }
+      
+      #weather {
+          margin-top: 20px;
+      }
+      
+      table, .recent {
+          background-color: rgba(98, 58, 44, 0.4);
+          border-radius: 25px;
+      }
+      
+      .error
+      {
+          color:red;
+          margin-top: 10px;
+          margin-bottom: 10px;
+      }      
+      
+      .recent {
+          min-width: 220px;
+          text-align: center;
+          display: inline-block;
+          margin-bottom: 20px;
+      }
+      
+      .weather_item {
+          min-width: 190px;
+          text-align: center;
+          margin: 10px;
+      }
